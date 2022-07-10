@@ -73,5 +73,30 @@
         }
       }
     }
+  },
+  "shubh": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-api-shubh-114147-authRole",
+      "UnauthRoleArn": "arn:aws:iam::491292470466:role/amplify-api-shubh-114147-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::491292470466:role/amplify-api-shubh-114147-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-api-shubh-114147-deployment",
+      "UnauthRoleName": "amplify-api-shubh-114147-unauthRole",
+      "StackName": "amplify-api-shubh-114147",
+      "StackId": "arn:aws:cloudformation:us-east-1:491292470466:stack/amplify-api-shubh-114147/cf4eb720-0066-11ed-a35e-125b8d7515cb",
+      "AmplifyAppId": "d10klxpivb46pq"
+    },
+    "categories": {
+      "function": {
+        "api3e246923": {
+          "deploymentBucketName": "amplify-api-shubh-114147-deployment",
+          "s3Key": "amplify-builds/api3e246923-304b5278337478536535-build.zip"
+        },
+        "sonaUserLambda": {
+          "deploymentBucketName": "amplify-api-shubh-114147-deployment",
+          "s3Key": "amplify-builds/sonaUserLambda-4f54704e5a6b68464763-build.zip"
+        }
+      }
+    }
   }
 }
