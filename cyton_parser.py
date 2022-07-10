@@ -1,9 +1,10 @@
 import argparse
+from pprint import pprint
 import time
 import json
 import numpy as np
 import os
-from brainflow.board_shim import BoardShim, BrainFlowInputParams
+from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
 
 def main():
     cwd = os.getcwd()
@@ -26,6 +27,13 @@ def main():
 
     parser.add_argument('--streamer-params', type=str, help='streamer params', required=False, default='')
     args = parser.parse_args()
+
+
+    board_id = BoardIds.CYTON_BOARD.value
+    pprint(BoardShim.get_board_descr(board_id))
+
+    dataa = np.loadtxt('test_data.txt')
+    print("Data Shape: ", str(dataa.shape))
 
     params = BrainFlowInputParams()
     params.timeout = args.timeout
