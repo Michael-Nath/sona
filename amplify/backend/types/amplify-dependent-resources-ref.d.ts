@@ -12,5 +12,12 @@ export type AmplifyDependentResourcesAttributes = {
             "Region": "string",
             "LambdaExecutionRole": "string"
         }
+    },
+    "api": {
+        "sonaapi": {
+            "RootUrl": "string",
+            "ApiName": "string",
+            "ApiId": "string"
+        }
     }
 }

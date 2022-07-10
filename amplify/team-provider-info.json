@@ -88,8 +88,14 @@
     },
     "categories": {
       "function": {
-        "api3e246923": {},
-        "sonaUserLambda": {}
+        "api3e246923": {
+          "deploymentBucketName": "amplify-api-ismail-180849-deployment",
+          "s3Key": "amplify-builds/api3e246923-3535664b324a6b43376f-build.zip"
+        },
+        "sonaUserLambda": {
+          "deploymentBucketName": "amplify-api-ismail-180849-deployment",
+          "s3Key": "amplify-builds/sonaUserLambda-4f54704e5a6b68464763-build.zip"
+        }
       }
     }
   }

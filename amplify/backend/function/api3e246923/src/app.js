@@ -32,7 +32,7 @@ app.use(function(req, res, next) {
 
 app.get('/brain-data', function(req, res) {
   // Add your code here
-  res.json({success: 'get call succeed!', url: req.url});
+  res.json({success: 'get call succeed!', url: req.url, body: req.body});
 });
 
 app.get('/brain-data/*', function(req, res) {
